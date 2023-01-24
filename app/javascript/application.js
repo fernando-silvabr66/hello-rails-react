@@ -1,7 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-function App() {
+// function App() {
+//   return (<h1>Hello World!</h1>);
+// }
+
+const App = () => {
   return (<h1>Hello World!</h1>);
 }
 
