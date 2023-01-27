@@ -1,3 +1,29 @@
+<a name="readme-top"></a>
+
+<!--
+HOW TO USE:
+This is an example of how you may give instructions on setting up your project locally.
+
+Modify this file to match your project and remove sections that don't apply.
+
+REQUIRED SECTIONS:
+- Table of Contents
+- About the Project
+  - Built With
+  - Live Demo
+- Getting Started
+- Authors
+- Future Features
+- Contributing
+- Show your support
+- Acknowledgements
+- License
+
+OPTIONAL SECTIONS:
+- FAQ
+
+After you're finished please remove all the comments and instructions!
+-->
 
 <div align="center">
   <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
@@ -34,14 +60,20 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Hello World rails/react one app<a name="about-project"></a>
+# 📖 [Hello-Rails-React] <a name="about-project"></a>
 
-** Hello World webpack is an app created with react as front end and rails as backend in one app that will print random greeting messages
+**[Hello-Rails-React]** is a webpack app created with react as front end and rails as backend in one app that will print random greeting messages
 
 ## 🛠 Built With <a name="built-with"></a>
 
+- Ruby
+- Rails
+- Gem
+- postgresql
+
 ### Tech Stack <a name="tech-stack"></a>
 
+> Describe the tech stack and include only the relevant sections that apply to your project.
 
 <details>
   <summary>Client</summary>
@@ -68,21 +100,35 @@
 
 ### Key Features <a name="key-features"></a>
 
+> Describe between 1-3 key features of the application.
+
+- **[react-redux]** uses react-redux to show different greeting messages when te user click on a proper button.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LIVE DEMO -->
 
+## 🚀 Live Demo <a name="live-demo"></a>
+
+> Add a link to your deployed project.
+
+- [Live Demo Link](https://yourdeployedapplicationlink.com)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-
+> Describe how a new developer could make use of your project.
 
 To get a local copy up and running, follow these steps.
 
 ### Prerequisites
 
-In order to run this project you need:
+In order to run this project you need to make sure you have installed locally:
+- Ruby 
+- Nodejs
 
 <!--
 Example command:
@@ -95,6 +141,7 @@ Example command:
 ### Setup
 
 Clone this repository to your desired folder:
+git clone https://github.com/fernando-silvabr66/hello-rails-react
 
 <!--
 Example commands:
@@ -117,15 +164,16 @@ Example command:
   gem install
 ```
 --->
-
+Execute on console making sure you are in the correct directory:
+```sh
+bundle install
+npm i
+```
 ### Usage
 
 To run the project, execute the following command:
 
-Git clone the repository: https://github.com/fernando-silvabr66/hello-rails-react.git
-Run bundle install and yarn
-Run ./bin/dev and open http://localhost:3000/ in your browser to see the web application running.
-
+- note: please check for necessary user and password in your local postgresql database and you may update it in database.yml under config folder.
 
 <!--
 Example command:
@@ -135,15 +183,44 @@ Example command:
 ```
 --->
 
+- On console execute
+```sh
+rails db:create
+rails db:migrate
+rails db:seed
+```
 
+./bin/dev
+
+### Run tests
+
+To run tests, run the following command:
+
+<!--
+Example command:
+
+```sh
+  bin/rails test test/models/article_test.rb
+```
+--->
+
+### Deployment
+
+You can deploy this project using:
+
+<!--
+Example:
+
+```sh
+
+```
  -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- AUTHORS -->
 
-## 👥 Author <a name="authors"></a>
-
+## 👥 Authors <a name="authors"></a>
 
 👤 **Fernando César da Silva**
 
@@ -155,7 +232,39 @@ Example command:
 
 <!-- FUTURE FEATURES -->
 
+## 🔭 Future Features <a name="future-features"></a>
 
+> Describe 1 - 3 features you will add to the project.
+
+- [ ] **[new_feature_1]**
+- [ ] **[new_feature_2]**
+- [ ] **[new_feature_3]**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- CONTRIBUTING -->
+
+## 🤝 Contributing <a name="contributing"></a>
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](../../issues/).
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- SUPPORT -->
+
+## ⭐️ Show your support <a name="support"></a>
+
+If you like this project please leave a star.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- ACKNOWLEDGEMENTS -->
+
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
+
+I would like to thank Microverse and everyone whose code may have inspired this project.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -164,7 +273,5 @@ Example command:
 ## 📝 License <a name="license"></a>
 
 This project is [MIT](./LICENSE) licensed.
-
-
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
