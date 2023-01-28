@@ -4,5 +4,13 @@ Rails.application.routes.draw do
 
   # Defines the root path route ("/")
   # root "articles#index"
+  # root 'root#index'
+
+  namespace :api, defaults: { format: 'json' } do
+    get 'message', to: 'greetings#random'
+  end
+
   root 'root#index'
+  get 'root/index'
+  get 'greetings/random'
 end
